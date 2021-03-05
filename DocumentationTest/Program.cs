@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*! 
- * namespace A
+ * namespace DocumentationTest
  * \mainpage Основная информация
  *
  * Данная программа выполняет поиск кратчайшего пути между вершинами в ориентированном графе с помощью созданной структуры данных \link DocumentationTest.QueueClass Очередь \endlink
