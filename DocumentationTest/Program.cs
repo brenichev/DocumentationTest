@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*! \mainpage Основная информация
+/*! 
+ * namespace A
+ * \mainpage Основная информация
  *
  * Данная программа выполняет поиск кратчайшего пути между вершинами в ориентированном графе с помощью созданной структуры данных \link DocumentationTest.QueueClass Очередь \endlink
  *
@@ -18,6 +20,7 @@ namespace DocumentationTest
 {
     //! Основной класс, содержащий метод Main.
     /*!
+     * Данный класс решает задачу поиска кратчайшего пути в ориентированном графе.
     */
     class Program
     {
