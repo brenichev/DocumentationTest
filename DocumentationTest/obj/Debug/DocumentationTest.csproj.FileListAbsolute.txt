@@ -1,0 +1,7 @@
+C:\Users\Никита\source\repos\DocumentationTest\DocumentationTest\bin\Debug\DocumentationTest.exe.config
+C:\Users\Никита\source\repos\DocumentationTest\DocumentationTest\bin\Debug\DocumentationTest.exe
+C:\Users\Никита\source\repos\DocumentationTest\DocumentationTest\bin\Debug\DocumentationTest.pdb
+C:\Users\Никита\source\repos\DocumentationTest\DocumentationTest\obj\Debug\DocumentationTest.csprojAssemblyReference.cache
+C:\Users\Никита\source\repos\DocumentationTest\DocumentationTest\obj\Debug\DocumentationTest.csproj.CoreCompileInputs.cache
+C:\Users\Никита\source\repos\DocumentationTest\DocumentationTest\obj\Debug\DocumentationTest.exe
+C:\Users\Никита\source\repos\DocumentationTest\DocumentationTest\obj\Debug\DocumentationTest.pdb
