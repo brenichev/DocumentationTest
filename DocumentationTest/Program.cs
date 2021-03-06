@@ -18,36 +18,23 @@ using System.Threading.Tasks;
  */
 namespace DocumentationTest
 {
-    //! Основной класс, содержащий метод Main.
+    //!  Основной класс, содержащий метод Main.
     /*!
-     * Данный класс решает задачу поиска кратчайшего пути в ориентированном графе.
+       Данный класс решает задачу поиска кратчайшего пути в ориентированном графе.
     */
     class Program
     {
-        static void Main(string[] args)
+
+        //! Данная функция решает задачу поиска кратчайшего пути в ориентированном графе.
+        /*!
+        */
+        public static void Main(string[] args)
         {
             QueueClass<int> q = new QueueClass<int>();
             int u;
             Random rand = new Random();
 
             u = rand.Next(3, 11);
-            //int[][] g = new int[u + 1][];
-
-            /*for (int i = 0; i < u + 1; i++)
-            {
-                g[i] = new int[u + 1];
-                for (int j = 0; j < u + 1; j++)
-                {
-                    g[i][j] = rand.Next(0, 2);
-                }
-                g[i][i] = 0;
-                foreach (var item in g[i])
-                {
-                    Console.Write(" {0}", item);
-                }
-                Console.Write("]\n");
-
-            }*/
 
             Console.WriteLine("Введите количество вершин графа");
             int x = int.Parse(Console.ReadLine());
@@ -73,12 +60,10 @@ namespace DocumentationTest
             int[] predecessor = new int[x + 1];
             predecessor[u] = u;
             q.Enqueue(u);
-            //Console.WriteLine("Начинаем обход с {0} вершины", u + 1);
             while (q.Count != 0)
             {
                 u = q.Peek();
                 q.Dequeue();
-                //Console.WriteLine("Перешли к узлу {0}", u + 1);
 
                 for (int i = 0; i < x; i++)
                 {
@@ -89,7 +74,6 @@ namespace DocumentationTest
                             usedVertices[i] = true;
                             predecessor[i] = u;
                             q.Enqueue(i);
-                            //Console.WriteLine("Добавили в очередь узел {0}", i + 1);
                         }
                     }
                 }
@@ -100,6 +84,9 @@ namespace DocumentationTest
 
         }
 
+        //! Функция для вывода пути между выбранынми вершинами
+        /*!
+        */
         static void way(int u, int[] p)
         {
             if (p[u] != u)

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['peek_27',['Peek',['../class_documentation_test_1_1_queue_class.html#af06472b0ee12e18dbeb96bba9744ddc7',1,'DocumentationTest::QueueClass']]]
+  ['main_28',['Main',['../class_documentation_test_1_1_program.html#ae15b3e5fe00ac631809cd7e185772066',1,'DocumentationTest::Program']]]
 ];
